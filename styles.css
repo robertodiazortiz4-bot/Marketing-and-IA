@@ -1,0 +1,83 @@
+/*------------------- ESTILO GENERAL -------------------*/
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f3f6fa;
+  color: #222;
+}
+
+/*------------------- HEADER -------------------*/
+header {
+  background: linear-gradient(135deg, #162182, #4b9cff);
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+/*------------------- NAVEGACIÓN -------------------*/
+nav {
+  background: #ffffff;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #0b4ea6;
+}
+
+/*------------------- TARJETAS -------------------*/
+.card {
+  background: white;
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 18px;
+  max-width: 1000px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/*------------------- TITULOS -------------------*/
+h2 {
+  color: #1a73e8;
+  font-weight: 700;
+}
+
+/*------------------- TABLAS -------------------*/
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.tabla th, .tabla td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabla th {
+  background: #1a73e8;
+  color: white;
+}
+
+/*------------------- FOOTER -------------------*/
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
